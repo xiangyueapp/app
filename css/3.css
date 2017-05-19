@@ -1,0 +1,113 @@
+body{
+	background-color: #f7f7f7;
+}
+#hometown{
+	width:100%;
+	height: auto;
+	font-family: "微软雅黑";
+}
+#hometown .head{
+	width:100%;
+	height: 1rem;
+	background-color: #fd313a;
+	text-align: center;
+	line-height: 1rem;
+	color: #fff;
+	position: relative;
+}
+#hometown .head h3{
+	margin: 0 auto;
+	width: 2rem;
+	font-size: 0.4rem;
+	font-weight: normal;
+}
+#hometown .head .share{
+	width: 0.45rem;
+	height: 0.45rem;
+	position: absolute;
+	right: 0.2rem;
+	top: 0.25rem;
+}
+#hometown .head .share img{
+	display: block;
+}
+#hometown .mainbg{
+	padding: 0.34rem 0;
+	width: 100%;
+	height: 100%;
+	background-color: #f7f7f7;
+	position: relative;
+}
+#hometown .mainbg:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+#hometown .main{
+	position: relative;
+	width: 7rem;
+	height: auto;
+	margin:0 auto;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0.01rem 0.01rem 0.32rem #d7d7d7;
+}
+#hometown .main>.scenery{
+	width: 100%;
+	height: auto;
+	margin:0 auto;
+}
+#hometown .main>.scenery>li{
+	width: 100%;
+	height: 3.74rem;
+	padding: 0.2rem 0.3rem;
+	
+}
+#hometown .main>.scenery>span{
+	display: block;
+	width: 100%;
+	height: 0.13rem;
+	background-color:#f7f7f7; 
+}
+#hometown .main>.scenery>li>p.title{
+	font-size: 0.36rem;
+	line-height: 0.5rem;
+	color: #636363;
+	letter-spacing: 0.03rem;
+}
+#hometown .main>.scenery>li>ul.show{
+	height: 1.9rem;
+	padding: 0.2rem 0;
+}
+#hometown .main>.scenery>li>ul.show>li{
+	width: 2.08rem;
+	height: 1.41rem;
+	float: left;
+	margin-right: 0.08rem;
+	border-radius: 0.1rem;
+	background-color: #ccc;
+}
+#hometown .main>.scenery>li>ul.show>li:last-child{
+	margin-right: 0;
+}
+#hometown .main>.scenery>li>div{
+	height: 0.3rem;
+	width: 100%;
+}
+#hometown .main>.scenery>li>div>a.next{
+	display: block;
+	float: left;
+	color: #bababa;
+	font-size: 0.2rem;
+}
+#hometown .main>.scenery>li>div>i{
+	font-style:normal;
+	display: block;
+	float: left;
+	margin-left: 0.25rem;
+	font-size: 0.2rem;
+	color: #fc7a2c;
+}
+#hometown .main>.scenery>li>div>i>img{
+	margin-right: 0.05rem;
+}
