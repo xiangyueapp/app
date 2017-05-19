@@ -70,6 +70,9 @@ body{
 	border-radius: 0.1rem;
 	background-color: #ccc;
 	left: 0.15rem;
+	background-image: url(../img/ldd_headpic.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 #Carpooling .main>.imfor>li>.title{
 	width: 100%;
@@ -183,16 +186,35 @@ body{
 	color: #fd313a;
 	margin-left: 0.15rem;
 }
-.oper .item{
+#Carpooling .main>.imfor>li>.oper .item{
 	float: left;
-	width: 0.88rem;
+	width: 1rem;
+	height: 0.3rem;
 	font-size: 0.18rem;
-	margin-left: 1.3rem;
+	margin-left: 0.9rem;
 }
-.oper .item a{
+#Carpooling .main>.imfor>li>.oper .item a{
+	height: 0.3rem;
+	line-height: 0.3rem;
+	display: block;
+	float: left;
 	color: #a8a8a8;
+	margin-left: 0.15rem;
+
 }
-.oper .item:first-child{
+#Carpooling .main>.imfor>li>.oper .item img{
+	display: block;
+	float: left;
+	width: 0.26rem;
+	height: 0.26rem;
+}
+#Carpooling .main>.imfor>li>.oper .item:first-child{
 	margin-left: 0;
 }
-
+#Carpooling .main>.imfor>li>.title .time{
+	width: 1.5rem;
+	font-size: 0.18rem;
+	position: absolute;
+	right: 0;
+	top:0.4rem;
+}
