@@ -1,0 +1,57 @@
+#hometown{
+	width:100%;
+	height: auto;
+	font-family: "微软雅黑";
+}
+#hometown .head{
+	width:100%;
+	height: 1rem;
+	background-color: #fd313a;
+	text-align: center;
+	line-height: 1rem;
+	color: #fff;
+	position: relative;
+}
+#hometown .head h3{
+	margin: 0 auto;
+	width: 2rem;
+	font-size: 0.4rem;
+	font-weight: normal;
+}
+#hometown .head .share{
+	width: 0.45rem;
+	height: 0.45rem;
+	position: absolute;
+	right: 0.2rem;
+	top: 0.1rem;
+}
+#hometown .mainbg{
+	padding: 0.34rem 0;
+	width: 100%;
+	height: auto;
+	background-color: #f7f7f7;
+	position: relative;
+}
+#hometown .mainbg:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+#hometown .main{
+	position: relative;
+	width: 7rem;
+	height: auto;
+	margin:0 auto;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 1px 1px 32px #d7d7d7;
+}
+#hometown .main>.scenery{
+	width: 100%;
+	height: auto;
+	margin:0 auto;
+}
+#hometown .main>.scenery>li{
+	width: 100%;
+	height: 3.74rem;
+}
