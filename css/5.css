@@ -43,12 +43,12 @@ body{
 	display: block;
 	clear: both;
 }
-#Carpooling .main>.scenery{
+#Carpooling .main>.imfor{
 	width: 100%;
 	height: auto;
 	margin:0 auto;
 }
-#Carpooling .main>.scenery>li{
+#Carpooling .main>.imfor>li{
 	width: 7rem;
 	height: 7.12rem;
 	padding: 0.2rem 0.3rem;
@@ -60,15 +60,117 @@ body{
 	padding: 0.24rem 0.4rem 0.3rem 1.1rem;
 	position: relative;
 }
-#Carpooling .main>.scenery>li:first-child{
+#Carpooling .main>.imfor>li:first-child{
 	margin-top: 0;
 }
-#Carpooling .main>.scenery .headPic{
+#Carpooling .main>.imfor .headPic{
 	width: 0.8rem;
 	height: 0.8rem;
 	position: absolute;
 	border-radius: 0.1rem;
 	background-color: #ccc;
+	left: 0.15rem;
 }
-
+#Carpooling .main>.imfor>li>.title{
+	width: 100%;
+	height: 0.8rem;
+}
+.partLine{
+	width: 5.52rem;
+	height: 0.02rem;
+	margin: 0.25rem auto;
+	background-color: #f5f5f5;
+}
+.partLine>.point{
+	width: 0.05rem;
+	height: 0.03rem;
+	background-color: #b0b0b0;
+}
+#Carpooling .main>.imfor>li>p.desc{
+	width: 4.35rem;
+	height: 0.7rem;
+}
+#Carpooling .main>.imfor>li>.show{
+	width: 5.48rem;
+	height: 3rem;
+	border-radius: 0.1rem;
+	margin: 0.3rem auto;
+	background-color: #ccc;
+	background-image: url(../img/ldd_food.png);
+	background-size: cover;
+}
+#Carpooling .main>.imfor>li>.pos{
+	height: 0.25rem;
+	width: 100%;
+}
+#Carpooling .main>.imfor>li>.oper{
+	height: 0.3rem;
+	width: 100%;
+	background-color: red;
+}
+#Carpooling .main>.imfor>li>.title>.name{
+	font-size: 0.34rem;
+	font-weight: bold;
+	color: #636363;
+}
+#Carpooling .main>.imfor>li>.title>.name>img{
+	width: 0.29rem;
+	height: 0.29rem;
+}
+.wantgo {
+	margin-top: 0.15rem;
+	height: 0.3rem;
+	line-height: 0.3rem;
+}
+.wantgo img{
+	display: block;
+	float: left;
+	width: 0.26rem;
+	height: 0.26rem;
+}
+.wantgo a{
+	display: block;
+	float: left;
+	font-size: 0.24rem;
+	color: #fcb22c;
+	margin-left: 0.15rem;
+}
+.wantgo span{
+	display: block;
+	float: left;
+	font-size: 0.24rem;
+	color: #a8a8a8;
+	margin-left: 0.15rem;
+}
+.wantgo span:last-child{
+	margin-left: 0;
+}
+.dian{
+	float: left;
+	width: 0.04rem;
+	height: 0.04rem;
+	background-color: red;
+	margin: 0.15rem 0.15rem;
+}
+p.desc{
+	color: #a8a8a8;
+	font-size: 0.28rem;
+}
+p.desc a{
+	color: #fcb22c;
+	
+}
+.pos span{
+	display: block;
+	float: left;
+	font-size: 0.24rem;
+	color: #696969;
+}
+.pos i{
+	font-style: normal;
+	display: block;
+	float: left;
+	font-size: 0.24rem;
+	color: #a8a8a8;
+}
 
