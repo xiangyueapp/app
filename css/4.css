@@ -90,6 +90,7 @@
 	margin-right: 0.08rem;
 	border-radius: 0.1rem;
 	background-color: #ccc;
+	overflow: hidden;
 }
 #food .main>.scenery>li>ul.show>li:last-child{
 	margin-right: 0;
