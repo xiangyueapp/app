@@ -1,0 +1,227 @@
+html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	width: 100%;
+	height: 100%;
+	/*font-size: 100px;*/
+	font-family: 微软雅黑;
+	background-color: #f7f7f7;
+}
+i{
+	font-style: normal;
+}
+.neikuan{
+	width: 690px;
+	margin: 0 auto;
+	margin-top: 35px;
+}
+.title{
+	height: 134px;
+	background-color: #fd313a;
+	position: relative;
+}
+.title p{
+	margin: 0;
+	color: #fff;
+	font-size: 0.4rem;
+	text-align: center;
+	line-height: 1.65rem;
+}
+.title .fenxiang{
+	width: 0.5rem;
+	height: 0.4rem;
+	position: absolute;
+	top: 0.6rem;
+	right: 0.25rem;
+	background-image: url(../img/wyx_1.png);
+	background-position: center;
+}
+.box{
+	width: 100%;
+	height: 3.2rem;
+	background-color: #fff;
+	border-radius: 0.15rem;
+	/*padding: 20px;*/
+	box-shadow: 0px 0px 0.12rem rgba(255,255,255,0.1);
+	/*box-sizing: border-box;*/
+	margin-bottom: 0.15rem;
+}
+.top{
+	height: 1.87rem;
+	padding: 0.2rem;
+    position: relative;
+}
+.er{
+	height: 0.93rem;
+	background: linear-gradient(to bottom, #fafafa,#fff);
+	padding: 0.2rem;
+}
+.touxiang{
+	width: 0.8rem;
+	height: 0.8rem;
+	background-image: url(../img/wyx_8.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+.top p{
+	font-size: 0.34rem;
+	color: #636363;
+	margin: 0;
+	float: left;
+	line-height: 0.34rem;
+	margin-left: 0.2rem;
+}
+.top img{
+	float: left;
+	margin-left: 25px;
+    margin-top: 5px;
+}
+.dingwei{
+	width: 5.65rem;
+	height: 0.5rem;
+	float: left;
+}
+.dingwei img{
+	margin-top: 0.11rem;
+    margin-left: 0.17rem;
+}
+.schname{
+	font-size: 0.24rem;
+	color: #a8a8a8;
+	float: left;
+	display: inline-block;
+	line-height: 0.5rem;
+	margin-left: 0.1rem;
+}
+.carname{
+	font-size: 0.24rem;
+	color: #a8a8a8;
+	display: inline-block;
+	line-height: 0.5rem;
+	float: left;
+}
+.tuijian{
+	width: 0.8rem;
+	height: 0.47rem;
+	background-image: url(../img/wyx_tj.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	top: -0.11rem;
+    right: 0.2rem;
+}
+.xcbox{
+	width: 100%;
+	height: 0.83rem;
+	float: left;
+}
+.xcbox img{
+	margin-top: 0.27rem;
+	margin-left: 0.05rem;
+}
+.xcbox i{
+	display: block;
+    font-size: 0.24rem;
+    color: #33404c;
+    float: left;
+    margin-top: 0.18rem;
+    font-weight: 600;
+}
+.xcbox i img{
+	float: none;
+	margin-right: 0.05rem;
+}
+.time{
+	float: right;
+	margin-top: 0.4rem;
+}
+.time i{
+	font-size: 0.18rem;
+	color: #000;
+	font-weight: normal;
+	float: left;
+	margin: 0;
+}
+.time img{
+	margin: 0;
+}
+.er-1{
+	height: 0.42rem;
+}
+.er-1 .dian{
+	width: 0.35rem;
+	height: 100%;
+	background-image: url(../img/wyx_lv.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+}
+.xian{
+	height: 0.05rem;
+    line-height: 0px;
+    font-size: 0.2rem;
+    color: #ccc;
+    margin-left: 0.35rem;
+}
+.er-1 i,.er-2 i{
+	font-size: 0.24rem;
+	color: #8f8e8e;
+	float: left;
+	line-height: 0.37rem;
+}
+.er-2{
+	height: 0.6rem;
+}
+.er-2 .dian{
+	width: 0.35rem;
+	height: 100%;
+	background-image: url(../img/wyx_hong.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+}
+.sofa{
+	width: 0.25rem;
+	height: 0.25rem;
+	background-image: url(../img/wyx_sofa.png);
+	float: right;
+	background-position: center;
+	margin-top: 0.2rem;
+}
+.length,.time2{
+	float: left;
+	font-size: 0.24rem;
+	color: #c1c1c1;
+	line-height: 0.37rem;
+	margin-left: 0.35rem;
+	margin-right: 0.2rem;
+}
+.biao{
+	height: 0.37rem;
+	width: 0.25rem;
+	float: left;
+	background-image: url(../img/wyx_13.png);
+	background-position: center;
+}
+.time2{
+	margin-left: 0.2rem;
+}
+.wz{
+	height: 0.37rem;
+	float: right;
+}
+.yuan{
+	font-size: 0.34rem;
+	color: #fc2831;
+	float: left;
+	font-weight: 600;
+	line-height: 0.37rem;
+}
+.zuo{
+	float: left;
+	width: 0.55rem;
+	height: 0.4rem;
+	background-image: url(../img/wyx_14.png);
+	background-position: center;
+}
