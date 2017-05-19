@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>Document</title>
+    <link rel="stylesheet" href="css/basic.css">
     <link rel="stylesheet" href="css/1.css">
     <script src="css/rem.js"></script>
 </head>
@@ -36,11 +37,11 @@
             <div class="indexbottom">
                 <div class="shunlu">
                     <img src="img/gj_shunlu_13_13.png" alt="">
-                    <b>顺路接单</b>
+                    <a href="">顺路接单</a>
                 </div>
                 <div class="fujin">
                     <img src="img/gj_login_17.png" alt="">
-                    <b>查看并筛选附近约友</b>
+                    <a href="">查看并筛选附近约友</a>
                     <img src="img/gj_circle_13.png" alt="">
                 </div>
             </div>
@@ -50,15 +51,67 @@
 
 <!--主体-->
 <div class="gj_main">
+    <div class="floor1_head">
+        <ul>
+            <li>
+                <div class="flag">
+                    <img src="img/gj_flag_40.png" alt="">
+
+                </div>
+                <span>每日出行</span>
+            </li>
+            <li>
+                <div class="flag">
+                    <img src="img/gj_flag_40.png" alt="">
+
+                </div>
+                <span>回家拼车</span>
+            </li>
+            <li>
+                <div class="flag">
+                    <img src="img/gj_flag_40.png" alt="">
+
+                </div>
+                <span>周末出游</span>
+            </li>
+        </ul>
+    </div>
     <div class="floor1">
-        <div class="floor1_head">
 
-        </div>
         <div class="floor1_text">
+            <ul>
+                <li>
+                    <div class="tit"><img src="img/gj_tit_31.png" alt=""></div>
+                    <span>山西师范大学北校门</span>
+                </li>
+                <li>
+                    <div class="tit"><img src="img/gj_tit1_36.png" alt=""></div>
+                    <span>想要去哪</span>
 
+                    <div class="getLocation">
+                        <input type="text" placeholder="临汾医科大学" class="weizhi">
+                        <div class="update"></div>
+                        <div class="close">×</div>
+                    </div>
+
+                </li>
+                <li>
+                    <div class="tit"><img src="img/gj_tit3_48.png" alt=""></div>
+                    <span>何时出发</span>
+                    <div class="suishi">
+                        <a href="">随时</a>
+                    <div class="dian_left"></div>
+                     <div class="dian_right"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="tit"><img src="img/gj_tit2_16.png" alt=""></div>
+                    <span>同行几人</span>
+                </li>
+            </ul>
         </div>
     </div>
-    <div class="queren">确认并出发</div>
+    <input type="button" value="确认并出发" class="queren">
 
     <div class="floor2">
         <div class="floor2_top">
@@ -66,30 +119,49 @@
                 <img src="img/gj_car_09.png" alt="">
             </div>
             <div class="floor2_top_middle">
-                <span>拼座  推荐</span>
+                <span>
+                    <a href="">拼座</a>
+                    <img src="img/gi_fenge_03.png" alt="">
+                    <a href="">推荐</a>
+                </span>
                 <span>根据您的行程推荐最优选项 价格优惠 马上抢座</span>
             </div>
             <div class="floor2_top_right">
                 <div class="tuijian">
                     <img src="img/gj_tuijian_28.png" alt="">
                 </div>
-                <dic class="tuijain_more">
-                    <img src="img/gj_more_28.png" alt="">
-                </dic>
+                <div class="tuijain_more">
+                    <a href=""><img src="img/gj_more_28.png" alt=""></a>
+                </div>
             </div>
         </div>
         <div class="floor2_bottom">
             <div class="floor2_bottom_left">
                 <div class="location">
                     <div class="tit"></div>
-                    <p></p>
-                    <span></span>
-                    <time></time>
-                    <span></span>
+                    <span>山西师范大学东校门</span>
+                    <span>0.8km</span>
+                    <time><img src="img/gj_clock_39.png" alt=""></time>
+                    <span>15:30</span>
+                </div>
+                <div class="mudilocation">
+                    <div class="mudi"></div>
+                    <span>临汾医科大学</span>
                 </div>
 
+
             </div>
-            <div class="floor2_bottom_right"></div>
+            <div class="floor2_bottom_right">
+                <div class="formation">
+                    <span>6.00</span>
+                    <div class="zuo">座</div>
+                </div>
+                <div class="yizi">
+                    <img src="img/gj_yizi_25.png" alt="">
+                    <img src="img/gj_yizi_25.png" alt="">
+                    <img src="img/gj_yizi_25.png" alt="">
+                </div>
+            </div>
         </div>
     </div>
 
@@ -100,19 +172,19 @@
     <div class="gj_foot">
         <div class="foot_box">
             <img src="img/gj_home_06.png" alt="">
-            <b>首页</b>
+            <a href="">首页</a>
         </div>
         <div class="foot_box">
             <img src="img/gj_messagr_06.png" alt="">
-            <b>首页</b>
+            <a href="">首页</a>
         </div>
         <div class="foot_box">
             <img src="img/gj_guangchang_09.png" alt="">
-            <b>广场</b>
+            <a href="">广场</a>
         </div>
         <div class="foot_box">
             <img src="img/gj_my_17.png" alt="">
-            <b>我的</b>
+            <a href="">我的</a>
         </div>
     </div>
 

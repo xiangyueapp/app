@@ -1,4 +1,9 @@
-
+body{
+    font-size: 0.24rem;
+}
+a{
+    color: #bfc0c1;
+}
 /*头部*/
 .gj_top{
     position: relative;
@@ -160,10 +165,11 @@
     margin-left: 0.1rem;
     margin-top:0.1rem;
 }
-.gj_top .indexbottom .shunlu b{
+.gj_top .indexbottom .shunlu a{
     display: block;
     float: left;
     margin-left: -0.2rem;
+    color: #fff;
 }
 .gj_top .indexbottom .fujin{
     width:4.41rem;
@@ -185,7 +191,7 @@
 .fujin img:nth-of-type(2){
     float: right;
 }
-.fujin b{
+.fujin a{
     float: left;
 }
 
@@ -198,13 +204,159 @@
 }
 .gj_main .floor1{
     width: 7rem;
-    height: 5.22rem;
+    height: 3.6rem;
     background: #fff;
     margin: 0 auto;
-    margin-top: 1.62rem;
+    /*margin-top: 1.62rem;*/
     border-radius: 0.1rem;
+    padding: 0 0.26rem;
+    box-sizing: border-box;
+}
+.gj_main .floor1_head{
+    width: 6.5rem;
+    height: 0.55rem;
+    border-radius: 0.1rem;
+    background: #e7262f;
+    margin: 0 auto;
+    margin-top: 1.62rem;
+
+}
+.floor1_head ul li{
+    width: 2.1rem;
+    height: 0.54rem;
+    padding: 0.17rem 0.47rem;
+    box-sizing: border-box;
+    float: left;
+    color: #f5bdbe;
+    font-weight: 800;
+}
+.floor1_head ul li .flag{
+    float: left;
+}
+.floor1_head ul li .flag img{
+    display: block;
+    margin-top: 0.07rem;
+}
+.floor1_head ul li span{
+    float: left;
+    margin-left: 0.1rem;
+}
+.gj_main .floor1_text{
+    overflow: hidden;
+}
+.gj_main .floor1_text ul li{
+    width:100%;
+    height: 0.87rem;
+    border-bottom:1px solid #f3f3f3;
+    line-height: 0.87rem;
+}
+.gj_main .floor1_text ul li:nth-child(1){
+    color: #8f8e8e;
+}
+.gj_main .floor1_text ul li:nth-child(4){
+    border:none;
+}
+.gj_main .floor1_text ul li:nth-child(3) .suishi{
+    width:1.07rem;
+    height:0.53rem;
+    border-radius: 0.5rem;
+    border:0.02rem solid #d5d5d5;
+    float: right;
+    text-align: center;
+    line-height: 0.53rem;
+    background: #fbfbfb;
+    color: #8f8e8e;
+    font-weight: 800;
+    margin-top: 0.16rem;
+    position: relative;
+}
+.gj_main .floor1_text ul li:nth-child(3) .suishi .dian_left{
+    width: 0.06rem;
+    height: 0.06rem;
+    background: #8f8e8e;
+    border: 0.03rem solid #ccc;
+    border-radius: 50%;
+    position: absolute;
+    top:0;
+    bottom:0;
+    margin: auto;
+    left: -0.03rem;
+
+}
+.gj_main .floor1_text ul li:nth-child(3) .suishi .dian_right{
+    width: 0.06rem;
+    height: 0.06rem;
+    background: #8f8e8e;
+    border: 0.03rem solid #ccc;
+    border-radius: 50%;
+    position: absolute;
+    top:0;
+    bottom:0;
+    margin: auto;
+    right: -0.03rem;
+}
+.gj_main .floor1_text ul li span,.floor1_text ul li .tit{
+    float: left;
+    margin-right: 0.16rem;
+    color: #c9c9c9;
+    font-weight:800;
+}
+.gj_main .floor1_text .getLocation{
+    position: relative;
+    width:2.61rem;
+    height: 0.55rem;
+    float: left;
+    margin-top: 0.15rem;
+}
+.gj_main .floor1_text ul li .weizhi{
+    width:2.61rem;
+    height: 0.55rem;
+    background: #515c67;
+    border-radius: 0.5rem;
+    float: left;
+    /*margin-top: 0.15rem;*/
+    text-align: center;
+    line-height: 0.52rem;
+}
+::-webkit-input-placeholder {
+    color: #c9c9c9;
+    font-size: 0.24rem;
+    line-height: 0.55rem;
+}
+
+.gj_main .floor1_text ul li .getLocation .update{
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius:50%;
+    background:#ff3939;
+    border: 0.01rem solid #454e57;
+    position: absolute;
+    top:0;
+    bottom:0;
+    margin: auto;
+    left: -0.02rem;
+}
+
+.gj_main .floor1_text ul li .getLocation .close{
+    width: 0.32rem;
+    height: 0.32rem;
+    border-radius: 50%;
+    border:2px solid #57636f;
+    text-align: center;
+    line-height: 0.3rem;
+    color:#c2c3c3;
+    float: left;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    right:0.12rem;
+    z-index:2;
+
+
 }
 .gj_main .queren{
+    display: block;
     width: 5.7rem;
     height: 0.74rem;
     border-radius: 0.5rem;
@@ -244,12 +396,12 @@
     padding: 0.14rem 0;
     float: left;
 }
-.gj_foot .foot_box b{
+.gj_foot .foot_box a{
     display: block;
     margin-top:0.05rem;
 }
 .gj_main .floor2_top{
-    padding: 0.25rem 0;
+    padding-top: 0.25rem;
     padding-left: 0.28rem;
     box-sizing: border-box;
     overflow: hidden;
@@ -266,7 +418,7 @@
     font-size: 0.24rem;
     margin-left: 0.2rem;
 }
-.gj_main .floor2_top_middle span{
+.gj_main .floor2_top_middle span {
     display: block;
     font-weight: 800;
     line-height:0.3rem;
@@ -281,11 +433,98 @@
 .gj_main .floor2_top_right img{
     display: block;
 }
-.gj_main .floor2_top_right img:nth-of-type(1){
+.gj_main .floor2_top_right .tuijian img{
     margin-top: -0.27rem;
-    margin-bottom: 0.45rem;
+
 }
-.floor2_bottom{
+.gj_main .floor2_top_right .tuijain_more img{
+    margin-top: 0.25rem;
+}
+.gj_main .floor2_bottom{
     width:100%;
+    padding: 0.25rem 0.28rem;
+    box-sizing: border-box;
+}
+.gj_main .floor2_bottom_left .location{
+    overflow: hidden;
+}
+.gj_main .floor2_bottom_left{
+    float: left;
+}
+.gj_main .floor2_bottom_left .location .tit{
+    width: 0.18rem;
+    height: 0.11rem;
+    background: #1dda76;
+    border:2px solid #d6f8e6;
+    border-radius: 0.5rem;
+    float:left;
+    margin-top: 0.05rem;
+}
+.gj_main .floor2_bottom_left .location p,.location span,.location time{
+    display: block;
+    float: left;
+    margin-right:0.2rem;
+    margin-left:0.1rem;
+    color: #8f8e8e;
+}
+.gj_main .floor2_bottom_left .location time{
+    margin-right: 0;
+    margin-left: 0;
 }
 
+.gj_main .floor2_bottom_left .mudilocation{
+    /*width: 3rem;*/
+    padding-top: 0.1rem;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.gj_main .floor2_bottom_left .mudilocation .mudi{
+    width: 0.18rem;
+    height: 0.11rem;
+    background: #fc323a;
+    border:2px solid #fed8da;
+    border-radius: 0.5rem;
+    float: left;
+}
+.gj_main .floor2_bottom_left .mudilocation span{
+    float: left;
+    margin-left:0.1rem;
+    color: #8f8e8e;
+}
+.gj_main .floor2_bottom_right{
+    float: right;
+    overflow: hidden;
+}
+.gj_main .floor2_bottom_right span{
+    color: #fc2831;
+    font-weight: 900;
+    float: left;
+    font-size: 0.3rem;
+
+}
+.gj_main .floor2_bottom_right .zuo{
+    width: 0.42rem;
+    height: 0.26rem;
+    border-radius: 0.5rem;
+    background: #fc2831;
+    color: #fff;
+    float: left;
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.26rem;
+    margin-left: 0.06rem;
+}
+.gj_main .floor2_bottom_right .yizi{
+    margin-top: 0.19rem;
+    width: 100%;
+}
+.gj_main .floor2_bottom_right .yizi img{
+    display: block;
+    float: left;
+    margin-right:0.1rem;
+}
+.gj_main .floor2_bottom_right .formation{
+    width: 100%;
+    height: 0.25rem;
+    line-height: 0.25rem;
+}
