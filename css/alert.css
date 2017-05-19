@@ -33,7 +33,7 @@ body{
 	width: 100%;
 	height: 0.98rem;
 	background-image: url(../img/wyx_2.jpg);
-	border-bottom: 0.02px solid #e5e5e5;
+	border-bottom: 0.02rem solid #e5e5e5;
 	position: relative;
 }
 .top2{
@@ -72,12 +72,37 @@ body{
 }
 .top3-1{
 	width: 4.25rem;
-	height: 100%;
-	float: left;
-	display: fixed;
+    height: 100%;
+    float: left;
+    display: flex;
+    padding: 0 0.61rem;
+    box-sizing: border-box;
 }
-.qq{
-	width: 73px;
-	height: 73px;
-	background-color: #e7262f
+.qq,.weixin,.weibo{
+	width: 0.73rem;
+	height: 0.73rem;
+	background-color: #e7262f;
+	border-radius: 50%;
+	border: 0.02rem solid #fd8034;
+	float: left;
+	/*flex-grow: 1;*/
+	margin: 0.14rem;
+}
+.weixin{
+	background-image: url(../img/wyx_3.png);
+	background-position: center;
+}
+.weibo{
+	background-image: url(../img/wyx_4.png);
+	background-position: center;
+}
+.top3-2{
+	width: 0.72rem;
+	height: 0.38rem;
+	border: 0.02rem solid #fff;
+	float: left;
+	margin-top: 0.3rem;
+	border-radius: 0.20rem;
+	background-image: url(../img/wyx_5.png);
+	background-position: center;
 }
