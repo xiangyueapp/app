@@ -106,7 +106,6 @@ body{
 #Carpooling .main>.imfor>li>.oper{
 	height: 0.3rem;
 	width: 100%;
-	background-color: red;
 }
 #Carpooling .main>.imfor>li>.title>.name{
 	font-size: 0.34rem;
@@ -117,32 +116,32 @@ body{
 	width: 0.29rem;
 	height: 0.29rem;
 }
-.wantgo {
+#Carpooling .main>.imfor>li .wantgo {
 	margin-top: 0.15rem;
 	height: 0.3rem;
 	line-height: 0.3rem;
 }
-.wantgo img{
+#Carpooling .main>.imfor>li .wantgo img{
 	display: block;
 	float: left;
 	width: 0.26rem;
 	height: 0.26rem;
 }
-.wantgo a{
+#Carpooling .main>.imfor>li .wantgo a{
 	display: block;
 	float: left;
 	font-size: 0.24rem;
 	color: #fcb22c;
 	margin-left: 0.15rem;
 }
-.wantgo span{
+#Carpooling .main>.imfor>li .wantgo span{
 	display: block;
 	float: left;
 	font-size: 0.24rem;
 	color: #a8a8a8;
 	margin-left: 0.15rem;
 }
-.wantgo span:last-child{
+#Carpooling .main>.imfor>li .wantgo span:last-child{
 	margin-left: 0;
 }
 .dian{
@@ -152,25 +151,48 @@ body{
 	background-color: red;
 	margin: 0.15rem 0.15rem;
 }
-p.desc{
+#Carpooling .main>.imfor>li p.desc{
 	color: #a8a8a8;
 	font-size: 0.28rem;
 }
-p.desc a{
+#Carpooling .main>.imfor>li p.desc a{
 	color: #fcb22c;
 	
 }
-.pos span{
+#Carpooling .main>.imfor>li .pos span{
 	display: block;
 	float: left;
 	font-size: 0.24rem;
 	color: #696969;
 }
-.pos i{
+#Carpooling .main>.imfor>li .pos span.farme{
+	margin-left: 1.15rem;
+}
+#Carpooling .main>.imfor>li .pos i{
 	font-style: normal;
 	display: block;
 	float: left;
 	font-size: 0.24rem;
 	color: #a8a8a8;
+	margin-left: 0.15rem;
+}
+#Carpooling .main>.imfor>li .pos a{
+	display: block;
+	float: left;
+	font-size: 0.2rem;
+	color: #fd313a;
+	margin-left: 0.15rem;
+}
+.oper .item{
+	float: left;
+	width: 0.88rem;
+	font-size: 0.18rem;
+	margin-left: 1.3rem;
+}
+.oper .item a{
+	color: #a8a8a8;
+}
+.oper .item:first-child{
+	margin-left: 0;
 }
 
